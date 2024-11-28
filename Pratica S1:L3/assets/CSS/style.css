@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+}
+
+header img{
+    width: 150px;
+}
+
+.logoWrapper{
+    padding: 0.8em;
+}
+
+header h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: rgb(3, 72, 72);
+}
+
+header h3 strong{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.headerWrapper {
+    margin: 0;
+    background-color: rgba(255, 213, 0, 0.167);
+    border-top: 1px solid rgb(255, 183, 0);
+    padding: 0.3em;
+}
+
+article {
+    width: 50%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+#titleWrapper {
+    width: 70%;
+    margin: auto;
+}
+
+article h1 {
+    text-transform: capitalize;
+}
+
+.recipeText{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.recipeText h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.recipeText p {
+    font-size: 0.9em;
+}
+
+article iframe {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+    }
+
+#credits {
+    color: gray;
+    padding-bottom: 2em;
+}
+
+#featured {
+    border-left: 1px solid rgb(255, 234, 0);
+    text-align: left;
+    line-height: 0.3em;
+    padding-left: 20px;
+    margin-bottom: 4em;
+    }
+
+#featured p {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: coral;
+}    
+
+ a {
+    font-size: 1em;
+    text-transform: capitalize;
+    color: rgb(3, 94, 94);
+}
+
+.titleWrapper {
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid rgb(0, 221, 195);
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 0.9em;    
+}
