@@ -1,0 +1,153 @@
+/* IMPOSTAZIONI GENERALI */
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: "Poppins", serif;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-image: url(../img/sfondo.png);
+    line-height: 1.5
+    ;
+}
+
+/* HEADER */
+
+header{
+    text-align: center;
+    background: rgb(0, 148, 161);
+    padding: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0px 5px 5px gray;
+    
+}
+
+header img{
+    padding: 2rem;
+}
+
+header nav ul{
+    margin-top: 1em;
+
+}
+
+header nav li a{
+    color: white;
+    padding: 0.2 em; 
+    
+    
+    }
+/* MAIN */
+
+main{
+    background-color: white;
+    box-shadow: 0px 5px 5px gray;
+    padding: 1em;
+    text-align: left;
+}
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article h1{
+    
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    
+}
+
+#autore, i {
+    color: gray;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+    
+}
+
+p, h2 {
+    font-size: 1.5em;
+}
+
+ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    
+    
+}
+
+ul li , ol li {
+    font-size: 1.5em;
+
+}
+
+code {
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+strong {
+    color: purple;
+}
+
+ol li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 5%;
+}
+
+p, ul, ol {
+    margin-bottom: 1em;
+
+}
+
+/* TABELLE */
+table{
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+
+}
+
+table caption{
+    font-weight: 500;
+}
+
+thead tr {
+    background-color: blue;
+    /*border-left-color: 10px solid white;*/
+    color: white;
+}
+
+th, td {
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: bottom;    
+}
+
+tbody td { 
+    padding: 20px 20px;
+}
+
+#seconRow, #forthRow {
+    background-color: lightgray;
+}
+#lastRow {
+    border-bottom: 2px solid blue;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 3em;
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
